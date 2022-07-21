@@ -4,7 +4,8 @@ module.exports = {
     base: "/",
     plugins: {
         '@vuepress/active-header-links': {},
-         'vuepress-plugin-auto-sidebar':{}
+//          'vuepress-plugin-auto-sidebar':{}
+        'autobar':{}
     },
     themeConfig: {
         // logo: '/assets/img/logo.png',
