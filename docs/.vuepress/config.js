@@ -4,7 +4,7 @@ module.exports = {
     base: "/",
     plugins: {
         '@vuepress/active-header-links': {},
-        // 'vuepress-plugin-auto-sidebar':{}
+         'vuepress-plugin-auto-sidebar':{}
     },
     themeConfig: {
         // logo: '/assets/img/logo.png',
@@ -12,6 +12,7 @@ module.exports = {
             { text: 'External', link: 'https://google.com', target: '_self', rel: '' },
             { text: 'Guide', link: '/guide/', target: '_blank' }
         ],
+        /*
         sidebar: [
             {
                 title: 'Group 1',   // 必要的
@@ -28,5 +29,6 @@ module.exports = {
                 initialOpenGroupIndex: -1 // 可选的, 默认值是 0
             }
         ]
+    */
     }
 }
