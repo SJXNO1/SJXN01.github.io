@@ -28,8 +28,7 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: npm install && npm run docs:build
-
-      # Runs a set of commands using the runners shell
+        
       # 部署到 GitHub Pages
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
