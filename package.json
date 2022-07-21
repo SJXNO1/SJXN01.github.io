@@ -1,0 +1,20 @@
+{
+  "name": "sjxn01",
+  "version": "1.0.0",
+  "description": "我的文档",
+  "main": "index.js",
+  "repository": "https://hub.fastgit.xyz/SJXNO1/SJXN01.github.io.git",
+  "author": "石家新 <2539702793@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/plugin-active-header-links": "^1.9.7",
+    "vuepress": "^1.9.7"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "dependencies": {
+    "vuepress-plugin-auto-sidebar": "^2.3.2"
+  }
+}
