@@ -8,7 +8,8 @@
   "license": "MIT",
   "devDependencies": {
     "@vuepress/plugin-active-header-links": "^1.9.7",
-    "vuepress": "^1.9.7"
+    "vuepress": "^1.9.7",
+    "vuepress-plugin-autobar": "boboidream/vuepress-bar"
   },
   "scripts": {
     "docs:dev": "vuepress dev docs",
